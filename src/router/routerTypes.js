@@ -1,0 +1,4 @@
+export const DOCOTOR_ADD_CALENDER = 'DOCOTOR_ADD_CALENDER';
+export const PATIENT_SELECT = 'PATIENT_SELECT';
+export const HOME = 'HOME';
+
