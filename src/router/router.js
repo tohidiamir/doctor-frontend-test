@@ -2,7 +2,7 @@ import React from 'react'
 import * as routerTypes from './routerTypes'
 import DoctorPage from "../container/doctor/DoctorPage";
 import IndexPage from "../container/index/IndexPage";
-import PatientSelect from "../component/Patient/PatientSelect/PatientSelect";
+import PatientSelectDoctor from "../component/Patient/PatientSelect/PatientSelectDoctor";
 
 
 export const RouteAll =
@@ -24,7 +24,7 @@ export const RouteAll =
             path: '/patient/add',
             exact: false,
             render: () => (
-                <PatientSelect/>
+                <PatientSelectDoctor/>
             )
 
         },

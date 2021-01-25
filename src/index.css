@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.SingleDatePicker , .SingleDatePicker .SingleDatePickerInput , .SingleDatePicker .SingleDatePickerInput .DateInput
+{
+  width: 100% !important;
+}
+
+.SingleDatePicker .SingleDatePickerInput , .SingleDatePicker .SingleDatePickerInput .DateInput input
+{
+
+  border-radius: 10px;
+  border:1px solid #ced4da ;
+}
+
+.SingleDatePicker .SingleDatePickerInput .DateInput input::placeholder
+{
+  color : #6c757d !important;
+}
+.SingleDatePicker .SingleDatePickerInput
+{
+  border:none
+
+}
+
+.react_time_range__time_range_container
+{
+  z-index: 0 !important;
+}

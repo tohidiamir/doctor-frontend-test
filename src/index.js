@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-dates/lib/css/_datepicker.css';
+import 'react-dates/initialize';
 
 ReactDOM.render(
   <React.StrictMode>
